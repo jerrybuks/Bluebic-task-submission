@@ -1,0 +1,222 @@
+html {
+    font-size: 62.5%;
+}
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.page {
+    position: absolute;
+    max-width: 420px;
+    width: 100%;
+    // width: 375px;
+    height: 812px;
+    margin: 0 center;
+
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    overflow: hidden;
+}
+
+.heading {
+
+    &-primary {
+        position: absolute;
+
+        font-family: Circular Std;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: normal;
+        text-align: center;
+
+        color: #384F7D;
+    }
+
+
+    &-sub {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 60.59%;
+        bottom: 33.99%;
+        padding: 1rem 1.5rem;
+
+        font-family: Circular Std;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+
+        color: rgba(56, 79, 125, 0.8);
+    }
+}
+
+
+.ellipse-tiny {
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 669px;
+
+    background: #8EF15C;
+    opacity: 0.25;
+    border-radius: 50%;
+
+    &--1 {
+
+        left: 103px;
+    }
+
+
+    &--2 {
+        left: 122px;
+    }
+}
+
+.ellipse-half {
+
+    position: absolute;
+
+
+    background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+    border-radius: 50%;
+}
+
+/* Ellipse 2.1 */
+.ellipse-full {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 23%;
+    top: 197px;
+    border-radius: 50%;
+
+}
+
+.ellipse-full-purple {
+    position: absolute;
+    border-radius: 50%;
+
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    -webkit-transform: rotate(-15.82deg);
+    transform: rotate(-15.82deg);
+
+
+}
+
+.text-primary {
+    position: absolute;
+    left: 36.12%;
+    right: 36.12%;
+    top: 90%;
+
+
+    font-family: Circular Std;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+
+    color: #445984;
+}
+
+.rectangle {
+    position: absolute;
+    width: 36px;
+    height: 12px;
+    left: 60px;
+    top: 669.5px;
+
+    background: #8EF15C;
+    border-radius: 11111px;
+}
+
+
+.arrow {
+    position: absolute;
+    left: 90%;
+    top: 20.83%;
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+input {
+    width: 280px;
+    height: 248;
+    // margin: 0 auto;
+    // background: #FFFFFF;
+    border-radius: 3px;
+    padding: 1rem;
+    border-bottom: 2px solid #BAFB67;
+    border-style: none none solid none;
+    margin-top: 1.2rem
+}
+
+label b {
+    font-size: 1.2rem;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(68, 89, 132, 0.3);
+}
+
+.input-collection {
+    padding: 1.2rem;
+
+}
+
+.btn {
+
+    width: 292px;
+    height: 56px;
+
+    margin-top: 2rem;
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 5%;
+}
+
+.book-leaf-one {
+    position: absolute;
+    left: 15.1em;
+    right: 52.08%;
+    top: 24.3em;
+}
+
+.book-leaf-two {
+    position: absolute;
+    left: 18.6em;
+    top: 24.5em;
+    ;
+
+}
+
+.book-base {
+    position: absolute;
+    left: 14.5em;
+    top: 26em;
+    width: 20%;
+
+}
+
+.star {
+    width: 88px;
+    height: 85.18px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 1.6%;
+    bottom: 1.6%;
+
+}

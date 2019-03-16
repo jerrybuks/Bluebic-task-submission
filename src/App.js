@@ -1,28 +1,35 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom'
+
+import './styles/App.scss'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div>
+        <header
+          style={{
+            fontSize: '1.8rem'
+          }}
+        >
+          {/* <NavLink to='/'>Home</NavLink>
+          <br /> */}
+          <NavLink to='/ReadBooks'>ReadBook</NavLink>
+          <br />
+          <NavLink to='/Review'>Review</NavLink>
+          <br />
+          <NavLink to='/Signup'>Signup</NavLink>
+          <br />
+          <NavLink to='/AddReview'>AddReview</NavLink>
+          <br />
+          <NavLink to='/BookList'>BookList</NavLink>
+          <br />
+          <NavLink to='/BookSubmitted'>BookSubmitted</NavLink>
+          <br />
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
